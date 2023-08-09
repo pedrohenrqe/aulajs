@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 16px;
+    gap: 30px;
+}
+.item{
+    height: 100px;
+    width: 80%;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-inline:32px ;
+}
+.texto{
+color: white;
+font-size:64px ;
+}
+.forma{
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+    transition: 1s;
+    cursor: pointer;
+    box-shadow: 0px 0px 16px;
+}
+.amarelo{
+    background-color: yellow;
+}
+
+.circulo{
+    border-radius: 50%;
+}
+
+.azul{
+    background-color: white;
+    border-radius: 100%;
+}
+
+.girorosa{
+    rotate: 360deg;
+    background-color: teal;
+}
+
+.fundo{
+    background-color: blue;
+}
+
+.sumir{
+    opacity: 0;
+    background-color: blueviolet;
+}
